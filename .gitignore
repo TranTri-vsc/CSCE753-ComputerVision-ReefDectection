@@ -1,0 +1,4 @@
+envs/
+Notes.txt
+*.pth
+__pycache__/
