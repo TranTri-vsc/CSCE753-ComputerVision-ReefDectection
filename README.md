@@ -54,11 +54,10 @@ jupyter notebook
 In your browser, open the notebook you'd like to run (e.g., `Mod1_DLabv3-Pretrained-finetuned.ipynb`) and execute the cells sequentially.
 
 ## Dataset
-Please ensure the dataset used is correctly placed within the `./data` directory or update the paths in the notebooks to match your data location.
 
 - **Dataset link:** [(https://www.kaggle.com/datasets/triminhtran/csce670-segmentation-dataset)]
 
 ## Results and Analysis
-Performance comparisons and detailed analysis of each model are provided within each notebook. Further summarized results and detailed discussion can be found in the project report (`Final_Paper_v3.tex`).
+Performance comparisons and detailed analysis of each model are provided within each notebook. Further summarized results and detailed discussion can be found in the project report (`Final_Paper.pdf`).
 
 ---
