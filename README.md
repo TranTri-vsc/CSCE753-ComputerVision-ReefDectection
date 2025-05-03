@@ -1,6 +1,6 @@
 # CSCE753-ComputerVision-ReefDectection
 ## Overview
-This repository provides Jupyter notebooks for evaluating and comparing the performance of several image classification and semantic segmentation models—**Deeplabv3**, **UNet**, and **PSPNet**—on coral reef detection tasks using underwater images.
+This repository provides Jupyter notebooks for evaluating and comparing the performance of several image classification and semantic segmentation model on coral reef detection tasks using underwater images.
 
 ## Models Evaluated
 - **Deeplabv3** (trained from scratch)
@@ -35,14 +35,9 @@ cd CSCE753-ComputerVision-ReefDectection
 Create a Conda environment and install required packages:
 
 ```bash
-conda create -n coral_seg python=3.12
-conda activate coral_seg
-
-conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
-conda install jupyter matplotlib numpy tqdm pandas
+conda env create -f environment.yml
+conda activate coralreef
 ```
-
-*(Adjust package versions as required by your notebooks.)*
 
 ### Step 3: Running the Notebooks
 Launch Jupyter Notebook in your Conda environment:
